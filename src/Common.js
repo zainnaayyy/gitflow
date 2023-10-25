@@ -8,8 +8,8 @@ const Common = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return <div>common</div>;
-  // zain committed on feat_one
-  // zain added comment on feat_two
+  // we are having a comment while working on feature one
+  // Feature two for gabriel and talha
 };
 
 export default Common;
