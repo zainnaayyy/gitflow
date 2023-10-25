@@ -31,6 +31,7 @@ import LandingPage from "./scenes/landing-page";
 import Settings from "./scenes/settings";
 
 function App() {
+  // zain was here while release 0.2.0 update
   return (
     <Router>
       <AuthProvider>
