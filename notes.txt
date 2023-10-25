@@ -1,0 +1,99 @@
+Menu Styling - 1:02:00
+
+———
+
+Data grid Mui - 1:27:00
+
+———
+
+Data Grid MACETE IMPORTANTE PARA APARECER A TABLE - 1:40:00
+
+———
+
+Data Grid Style - 1:42:00
+
+———
+
+Next features for to develop :: 
+
+- Consertar as cores do DialogBox em users > botão Add ( PEGAR DOCUMENTACAO)
+- Consertar as cores dos campos dos forms - OK
+- Inserir Line chart no lugar de Renvue dahsboard - OK
+
+- Alterar cor do scroll bar da tabela no modo light - OK
+- Deixar a altura do sideBar 100% (verificar se há footer e implementar) - OUT
+- Criar repositório no GIT - Ok
+- Aumentar as fontes do sideBar/ Headers, tabelas e de todas as fontes do sistema -  OK
+- Diagramar charts com Mui Grid, adicionar diagramação no index e remover estilos dos componentes em si - OK
+- Consertar as cores dos filtros na tabela ( não aparece no preto ) - OK
+- Costumizar as cores de todos os elementos em light mode que estão totalmente pretos, manter o padrao cinza - OK
+
+- Criar pagina Profile - https://themesbrand.com/velzon/html/default/pages-profile-settings.html
+= Tentar 
+
+- create a select box to bin the agent to the respective manager in user creation
+
+POLICY TABLES / FIELDS
+
+
+
+Marketplace Doc Info Data Fields - REQUIRED / RECEIVED or NOT APPLICABLE / APPLICABLE
+
+Policy Info Data Fields - Add Field RENEW | RENEW Consent |
+
+---------------------
+New Notes
+
+Priorities:
+
+    - Check why the verification to Online dont work in certain browsers - DONE
+    - Verification to prevent to call user in widget without beeing connected - DONE
+    - Fix remove from bridge button and invalidateTags - DONE (invalidate can be better)
+    - APScheduler was not working in Ubuntu production - DONE
+    - Sync CheckChannelActivityStatus with Backend - DONE
+    - Improve Layout of the TopBar and Buttons - DONE
+
+    - Creation of the 2 levels of registration ( Registration and Stasis in back and front-end) - DONE IN BACKEND
+    - Create different colors, icons and labels depending of the talker location - DOING 
+    - Implement users in conference Tooltip - DOING
+    - Creation of Widget Recent Calls - D)ING
+
+    - FUNCAO PRA CATAR 0 EM CDR
+
+    - Create user Details in User Dialog
+    - Create user Details in Profile
+    - Create Card/List Visualization in Users Screen
+
+    - Install and configure NFS to access audio files on Django from Asterisk
+
+    - Try an alternate solution or fix the "malformed data" to "delete channel" throught API
+
+    - Bridge: Insert name and role in the instance
+    - Bridge: Create the logic to insert the incoming call directly to the Bridge
+
+    - CREATE SECURITY FOR API ::: ChannelActivityRegistrationCreate(APIView) DJANGO ::: PREFERRED post body:
+
+    - Create Progress bar in stack and tooltip with advanced infos about lead journey, like if
+    is the call is with fronter, agent or customer service, etc - IN PROGRESS
+
+    - Fix InsertAvatars in bridge, they are multiplying sometimes, and issues with external - NOT WORKING
+
+    - Implement Charts in Bridges Menu
+    - Improve Queues Screen
+    - Improve Endpoints Screen
+
+    - Fix CDR menu
+    - Create Widget CDR to put in Dashboard
+
+    - Centralizer Screen Dimensions in RTK to share with components
+
+    - A small bug of the login button not work after some connects and disconnects, intermitent bug.
+        Looks that the error is on CheckChannelActivityStatus.jsx > [[ else if (!currentExtension) {...} ]].
+        Part identified: sometimes the Asterisk is connected but the status of state is false, check why )
+        Need to create a webservice to check if the asterisk is logged on and switch the RTK Asterisk Registration 
+
+
+    - Set timeout of channels in asterisk or other solution to identify and sync users widget
+    - Avatar is not changing in widgets after reload, requiring clear cache
+    - Complementing above, create an useEffect to switch the picture in the moment of the change
+  
