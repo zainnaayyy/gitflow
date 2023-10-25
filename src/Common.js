@@ -9,7 +9,7 @@ const Common = () => {
   const colors = tokens(theme.palette.mode);
   return <div>common</div>;
   // we are having a comment while working on feature one
-  // zain added comment on feat_two
+  // Feature two for gabriel and talha
 };
 
 export default Common;
